@@ -1,0 +1,6 @@
+C:\Users\USER\Documents\Visual Studio 2012\Projects\OnlineSinav\OnlineSinav\bin\OnlineSinav.dll
+C:\Users\USER\Documents\Visual Studio 2012\Projects\OnlineSinav\OnlineSinav\bin\OnlineSinav.pdb
+C:\Users\USER\Documents\Visual Studio 2012\Projects\OnlineSinav\OnlineSinav\obj\Debug\OnlineSinav.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\Visual Studio 2012\Projects\OnlineSinav\OnlineSinav\obj\Debug\OnlineSinav.dll
+C:\Users\USER\Documents\Visual Studio 2012\Projects\OnlineSinav\OnlineSinav\obj\Debug\OnlineSinav.pdb
+C:\Users\USER\Documents\Visual Studio 2012\Projects\OnlineSinav\OnlineSinav\obj\Debug\OnlineSinav.dll.licenses

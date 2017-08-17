@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="OnlineSinav.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>KCETAŞ</title>
+ 
+  <link href="../StyleSheet.css" rel="stylesheet" />
+
+    
+    <style type="text/css">
+        .auto-style12 {
+            width: 165px;
+            height: 36px;
+        }
+        </style>
+
+</head>
+<body style="height: 132px; align-content:center; background-color:#ECECFF">
+    
+    
+        <form id="form1" runat="server">
+    
+        <div style="text-align:center;margin-top:40px; color:#234087">
+           <h1 style="border: thin double #234087; background-color: #CCEAE7; height: 57px; width: 100%; text-align:center; top: 20px; right: auto; bottom: auto; left: auto;"> 
+               Kayseri ve Civarı Elektrik T.A.Ş.</h1>
+            <p style="background-color: #CCEAE7;margin-top:10px; width: 100%;">Online Sınav Sistemi</p>
+            <p style="background-color: #CCEAE7;margin-top:10px; width: 100%;">&nbsp;</p>
+        </div>
+    
+    <table style="width:100%; height:auto; margin-left:0px; background-color: #ECECFF;">
+        <tr>
+            <td class="auto-style12" ><a href="sinavOlustur.aspx">Sınav Oluştur</a></td>
+            <td  rowspan="6" style="padding-left:0px">
+                <asp:ContentPlaceHolder id="head" runat="server">
+                 
+                 </asp:ContentPlaceHolder></td>
+        </tr>
+        <tr>
+            <td class="auto-style12" >
+                <a href="sinavDuzenle.aspx">Sınav Düzenle</a>
+             </td>
+        </tr>
+        <tr>
+            <td class="auto-style12" >
+             <a href="sinavPaylas.aspx">Sınav Paylaş</a><br/>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style12" >
+                 
+                <a href="sonuclariGoruntule.aspx">Sonuç Görüntüle</a></td>
+        </tr> 
+
+        <tr>
+            <td class="auto-style12" > <a href="cikisYap.aspx">Çıkış Yap</a></td>
+        </tr> 
+         <tr>
+            <td >
+                 
+                &nbsp;</td>
+        </tr>
+        </table>
+        </form>
+    </body>
+</html>
